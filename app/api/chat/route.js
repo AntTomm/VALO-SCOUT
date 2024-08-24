@@ -49,11 +49,11 @@ export async function POST(req) {
 
     const text = data[data.length - 1].content;
 
-    // Determine the correct namespace based on the content of the query
+    // determine namespace based on user input
     const namespace = text.includes("agent") ? "agents" : "ms1";
     const indexName = namespace === "agents" ? 'players' : 'rag';
     
-    // Initialize the index with the correct namespace
+    // int index w/ namespace
     const index = pc.index(indexName).namespace(namespace);
 
     const embedding = await openai.embeddings.create({
@@ -70,18 +70,18 @@ export async function POST(req) {
 
     let resultString = '\n\nReturned Results from vector DB (done automatically!):';
 
-    // Adjusting the processing part in the POST function based on namespace
+    //process based on namespace
     if (namespace === "agents") {
         results.matches.forEach((match) => {
             if (match.metadata && typeof match.metadata.abilities === 'string') {
-                // Parse abilities if they are stored as a JSON string
+                // parse thru if json
                 const abilities = JSON.parse(match.metadata.abilities);
                 resultString += `\n
                 Agent: ${match.id}
                 Abilities:\n${abilities.map(ability => 
                     `- **${ability.name}** (${ability.type}): ${ability.description}\n`).join("")}`;
             } else if (match.metadata && Array.isArray(match.metadata.abilities)) {
-                // Directly use the abilities if they are already an array
+                // if in array, output
                 resultString += `\n
                 Agent: ${match.id}
                 Abilities:\n${match.metadata.abilities.map(ability => 
@@ -92,7 +92,7 @@ export async function POST(req) {
         });
     } else {
         results.matches.forEach((match) => {
-            console.log("Match ID: ", match.id);  // Log the IDs returned
+            console.log("Match ID: ", match.id);  // log returns in terminal
             if (match.metadata) {
                 resultString += `\n
                 Player: ${match.id}
