@@ -1,0 +1,155 @@
+{
+    "stats": [
+        {
+            "player_name": "PRX f0rsakeN",
+            "most_used_hero": "Jett",
+            "recent_performance": {
+                "matches_played": 100,
+                "wins": 65,
+                "average_kda": "2.5"
+            },
+            "top_used_weapon": "Vandal",
+            "stream_schedule": {
+                "streams_regularly": true,
+                "days": ["Monday", "Wednesday", "Friday"],
+                "time": "7:00 PM - 11:00 PM"
+            }
+        },
+        {
+            "player_name": "NAVI ardiis",
+            "most_used_hero": "Killjoy",
+            "recent_performance": {
+                "matches_played": 90,
+                "wins": 58,
+                "average_kda": "2.3"
+            },
+            "top_used_weapon": "Phantom",
+            "stream_schedule": {
+                "streams_regularly": false,
+                "days": [],
+                "time": ""
+            }
+        },
+        {
+            "player_name": "FNATIC Chronicle",
+            "most_used_hero": "Sova",
+            "recent_performance": {
+                "matches_played": 85,
+                "wins": 60,
+                "average_kda": "2.8"
+            },
+            "top_used_weapon": "Operator",
+            "stream_schedule": {
+                "streams_regularly": true,
+                "days": ["Tuesday", "Thursday"],
+                "time": "8:00 PM - 12:00 AM"
+            }
+        },
+        {
+            "player_name": "LEV aspas",
+            "most_used_hero": "Reyna",
+            "recent_performance": {
+                "matches_played": 95,
+                "wins": 70,
+                "average_kda": "3.0"
+            },
+            "top_used_weapon": "Vandal",
+            "stream_schedule": {
+                "streams_regularly": true,
+                "days": ["Wednesday", "Saturday"],
+                "time": "6:00 PM - 10:00 PM"
+            }
+        },
+        {
+            "player_name": "FNATIC Derke",
+            "most_used_hero": "Jett",
+            "recent_performance": {
+                "matches_played": 88,
+                "wins": 63,
+                "average_kda": "2.6"
+            },
+            "top_used_weapon": "Operator",
+            "stream_schedule": {
+                "streams_regularly": false,
+                "days": [],
+                "time": ""
+            }
+        },
+        {
+            "player_name": "FNATIC Boaster",
+            "most_used_hero": "Brimstone",
+            "recent_performance": {
+                "matches_played": 92,
+                "wins": 66,
+                "average_kda": "2.7"
+            },
+            "top_used_weapon": "Phantom",
+            "stream_schedule": {
+                "streams_regularly": true,
+                "days": ["Monday", "Thursday", "Sunday"],
+                "time": "5:00 PM - 9:00 PM"
+            }
+        },
+        {
+            "player_name": "sinatraa",
+            "most_used_hero": "Phoenix",
+            "recent_performance": {
+                "matches_played": 80,
+                "wins": 55,
+                "average_kda": "2.4"
+            },
+            "top_used_weapon": "Vandal",
+            "stream_schedule": {
+                "streams_regularly": true,
+                "days": ["Friday", "Saturday"],
+                "time": "7:00 PM - 12:00 AM"
+            }
+        },
+        {
+            "player_name": "yay",
+            "most_used_hero": "Chamber",
+            "recent_performance": {
+                "matches_played": 75,
+                "wins": 50,
+                "average_kda": "2.2"
+            },
+            "top_used_weapon": "Operator",
+            "stream_schedule": {
+                "streams_regularly": false,
+                "days": [],
+                "time": ""
+            }
+        },
+        {
+            "player_name": "PRX Jinggg",
+            "most_used_hero": "Raze",
+            "recent_performance": {
+                "matches_played": 82,
+                "wins": 60,
+                "average_kda": "2.9"
+            },
+            "top_used_weapon": "Vandal",
+            "stream_schedule": {
+                "streams_regularly": true,
+                "days": ["Tuesday", "Friday"],
+                "time": "6:00 PM - 10:00 PM"
+            }
+        },
+        {
+            "player_name": "100T Boostio",
+            "most_used_hero": "Killjoy",
+            "recent_performance": {
+                "matches_played": 78,
+                "wins": 52,
+                "average_kda": "2.5"
+            },
+            "top_used_weapon": "Phantom",
+            "stream_schedule": {
+                "streams_regularly": false,
+                "days": [],
+                "time": ""
+            }
+        }
+      ]
+      
+}

@@ -1,0 +1,279 @@
+{
+  "agents": [
+    {
+      "name": "Brimstone",
+      "abilities": [
+        {
+          "name": "Incendiary",
+          "type": "Grenade",
+          "description": "Launches an incendiary grenade that deploys a damaging field of fire."
+        },
+        {
+          "name": "Stim Beacon",
+          "type": "Buff",
+          "description": "Deploys a beacon that gives all nearby players a rapid-fire buff."
+        },
+        {
+          "name": "Sky Smoke",
+          "type": "Smoke",
+          "description": "Deploys a tactical map allowing Brimstone to call in orbital smokescreens that obscure vision."
+        },
+        {
+          "name": "Orbital Strike",
+          "type": "Ultimate",
+          "description": "Calls in a powerful orbital strike that deals high damage over time in a large area."
+        }
+      ]
+    },
+    {
+      "name": "Jett",
+      "abilities": [
+        {
+          "name": "Cloudburst",
+          "type": "Smoke",
+          "description": "Throws a projectile that expands into a brief vision-blocking cloud on impact."
+        },
+        {
+          "name": "Updraft",
+          "type": "Movement",
+          "description": "Propels Jett high into the air."
+        },
+        {
+          "name": "Tailwind",
+          "type": "Movement",
+          "description": "Dashes Jett a short distance in the direction she is moving."
+        },
+        {
+          "name": "Blade Storm",
+          "type": "Ultimate",
+          "description": "Equips Jett with a set of highly accurate throwing knives that deal moderate damage and reset on kills."
+        }
+      ]
+    },
+    {
+      "name": "Sova",
+      "abilities": [
+        {
+          "name": "Shock Bolt",
+          "type": "Projectile",
+          "description": "Fires an explosive bolt that emits a damaging pulse of static energy upon impact."
+        },
+        {
+          "name": "Owl Drone",
+          "type": "Recon",
+          "description": "Deploys a drone that can fire a dart to reveal the location of anyone hit."
+        },
+        {
+          "name": "Recon Bolt",
+          "type": "Recon",
+          "description": "Fires a bolt that deploys a sonar emitter, revealing nearby enemies."
+        },
+        {
+          "name": "Hunter's Fury",
+          "type": "Ultimate",
+          "description": "Fires up to three long-range energy blasts that can pierce walls and reveal enemies."
+        }
+      ]
+    },
+    {
+      "name": "Phoenix",
+      "abilities": [
+        {
+          "name": "Hot Hands",
+          "type": "Projectile",
+          "description": "Throws a fireball that explodes after a delay or upon impact, creating a zone of fire that damages enemies and heals Phoenix."
+        },
+        {
+          "name": "Blaze",
+          "type": "Wall",
+          "description": "Creates a wall of fire that blocks vision and damages anyone passing through it."
+        },
+        {
+          "name": "Curveball",
+          "type": "Flash",
+          "description": "Throws a flashbang that curves around corners, blinding all who see it."
+        },
+        {
+          "name": "Run It Back",
+          "type": "Ultimate",
+          "description": "Marks Phoenix's current location. If he dies during the ability's duration, or when the ability's duration expires, he is reborn at the marked location with full health."
+        }
+      ]
+    },
+    {
+      "name": "Sage",
+      "abilities": [
+        {
+          "name": "Barrier Orb",
+          "type": "Wall",
+          "description": "Places a solid wall that can be rotated before casting."
+        },
+        {
+          "name": "Slow Orb",
+          "type": "Projectile",
+          "description": "Casts a radiant orb that slows down anyone who steps on it."
+        },
+        {
+          "name": "Healing Orb",
+          "type": "Heal",
+          "description": "Heals a teammate or self over a few seconds."
+        },
+        {
+          "name": "Resurrection",
+          "type": "Ultimate",
+          "description": "Revives a dead teammate with full health."
+        }
+      ]
+    },
+    {
+      "name": "Viper",
+      "abilities": [
+        {
+          "name": "Snake Bite",
+          "type": "Area Damage",
+          "description": "Launches a projectile that explodes into a pool of acid, dealing damage to anyone within it."
+        },
+        {
+          "name": "Poison Cloud",
+          "type": "Smoke",
+          "description": "Throws a gas emitter that you can reactivate to create a toxic smoke cloud at the cost of fuel."
+        },
+        {
+          "name": "Toxic Screen",
+          "type": "Wall",
+          "description": "Deploys a line of gas emitters that can be reactivated to create a tall wall of toxic gas."
+        },
+        {
+          "name": "Viper's Pit",
+          "type": "Ultimate",
+          "description": "Creates a large cloud of toxic gas that reduces the vision range and max health of players inside it."
+        }
+      ]
+    },
+    {
+      "name": "Raze",
+      "abilities": [
+        {
+          "name": "Boom Bot",
+          "type": "Recon",
+          "description": "Deploys a bot that travels in a straight line and explodes upon detecting enemies."
+        },
+        {
+          "name": "Blast Pack",
+          "type": "Explosive",
+          "description": "Throws a satchel charge that can be detonated, dealing damage and knocking back anything hit."
+        },
+        {
+          "name": "Paint Shells",
+          "type": "Explosive",
+          "description": "Throws a cluster grenade that explodes into smaller grenades upon impact."
+        },
+        {
+          "name": "Showstopper",
+          "type": "Ultimate",
+          "description": "Fires a rocket launcher that deals massive damage in a large area."
+        }
+      ]
+    },
+    {
+      "name": "Reyna",
+      "abilities": [
+        {
+          "name": "Leer",
+          "type": "Blind",
+          "description": "Casts an orb that nearsights all enemies who look at it."
+        },
+        {
+          "name": "Devour",
+          "type": "Healing",
+          "description": "Heals Reyna after securing a kill, using Soul Orbs dropped by slain enemies."
+        },
+        {
+          "name": "Dismiss",
+          "type": "Invisibility",
+          "description": "Uses a Soul Orb to become intangible and avoid damage for a short time."
+        },
+        {
+          "name": "Empress",
+          "type": "Ultimate",
+          "description": "Enters a heightened state of bloodlust, increasing firing speed and automatically using Devour on kills."
+        }
+      ]
+    },
+    {
+      "name": "Killjoy",
+      "abilities": [
+        {
+          "name": "Nanoswarm",
+          "type": "Area Damage",
+          "description": "Deploys a grenade that, when activated, swarms an area with damaging nanobots."
+        },
+        {
+          "name": "Alarmbot",
+          "type": "Recon",
+          "description": "Deploys a bot that hunts down enemies and applies a debuff that causes them to take more damage."
+        },
+        {
+          "name": "Turret",
+          "type": "Deployable",
+          "description": "Deploys a turret that fires at enemies in a 180-degree cone."
+        },
+        {
+          "name": "Lockdown",
+          "type": "Ultimate",
+          "description": "Deploys a device that emits a pulse after a long wind-up, detaining all enemies caught in its radius."
+        }
+      ]
+    },
+    {
+      "name": "Cypher",
+      "abilities": [
+        {
+          "name": "Trapwire",
+          "type": "Trap",
+          "description": "Deploys a tripwire between two walls that tethers and reveals enemies who trigger it."
+        },
+        {
+          "name": "Cyber Cage",
+          "type": "Smoke",
+          "description": "Throws a device that creates a zone which blocks vision and slows enemies who pass through it."
+        },
+        {
+          "name": "Spycam",
+          "type": "Recon",
+          "description": "Deploys a camera that can be used to remotely view the area and fire tracking darts at enemies."
+        },
+        {
+          "name": "Neural Theft",
+          "type": "Ultimate",
+          "description": "After killing an enemy, Cypher can use their corpse to reveal the location of all remaining enemies."
+        }
+      ]
+    },
+    {
+      "name": "Omen",
+      "abilities": [
+        {
+          "name": "Shrouded Step",
+          "type": "Teleport",
+          "description": "Allows Omen to teleport to a nearby location."
+        },
+        {
+          "name": "Paranoia",
+          "type": "Blind",
+          "description": "Sends out an ethereal shadow in a straight line, near-sighting, deafening, and slowing anyone it touches."
+        },
+        {
+          "name": "Dark Cover",
+          "type": "Smoke",
+      "description": "Casts a long-lasting smoke that can be steered while in the air."
+    },
+    {
+      "name": "From the Shadows",
+      "type": "Ultimate",
+      "description": "Allows Omen to teleport anywhere on the map. If he dies during the teleport, he will return to his original location."
+    }
+  ]
+}
+  ]
+}

@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+body {
+  background-image: url(/valbg3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden; /* for jett */
+}
+
+body::before{
+  content: '';
+    background-image: url('/jettsolo.png'); /* Character image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left; /* Adjust this as needed */
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 100%; /* Adjust size */
+    height: 100%;
+    z-index: 1;
+
+    animation: fadeInLeft .86s ease-in-out;
+}
+
+body::after{
+  content: '';
+  background-image: url('/yoru.png');
+  bacxkground-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 50%;
+  height: 90vh;
+  z-index: 1;
+
+  animation: fadeInRight .86s ease-in-out;
+}
+
+
