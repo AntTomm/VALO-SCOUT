@@ -50,7 +50,7 @@ export async function POST(req) {
     const text = data[data.length - 1].content;
 
     // determine namespace based on user input
-    const namespace = text.includes("agent") ? "agents" : "ms1";
+    const namespace = text.includes("agent") || text.includes("reyna") || text.includes("cypher") || text.includes("brimstone") || text.includes("jett")|| text.includes("sage")|| text.includes("omen")|| text.includes("killjoy")|| text.includes("viper") ? "agents" : "ms1";
     const indexName = namespace === "agents" ? 'players' : 'rag';
     
     // int index w/ namespace
