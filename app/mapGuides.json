@@ -1,0 +1,50 @@
+[
+  {
+    "map": "Ascent",
+    "styleTags": ["default-heavy", "mid-control", "retake"],
+    "recommendedAgents": ["Omen", "Sova", "Killjoy", "Jett"],
+    "summary": "Ascent rewards mid control, patient defaults, and layered utility for retakes.",
+    "tips": [
+      "Contest mid with early recon or pressure so defenders cannot stack sites for free.",
+      "Save at least one smoke or flash for the lane between market and tree during executes.",
+      "Sentinel utility is strongest when it protects flank while duelists pressure catwalk or A main."
+    ],
+    "sourceType": "map-guide"
+  },
+  {
+    "map": "Bind",
+    "styleTags": ["fast-hit", "teleporter", "exec-heavy"],
+    "recommendedAgents": ["Raze", "Brimstone", "Skye", "Viper"],
+    "summary": "Bind favors explosive site hits, teleport mix-ups, and strong post-plant utility.",
+    "tips": [
+      "Use teleporters to punish rotates rather than as a default escape every round.",
+      "Controllers with layered smokes and molly lineups create stable post-plants on both sites.",
+      "Entry utility is especially valuable because chokes are narrow and easy to stall."
+    ],
+    "sourceType": "map-guide"
+  },
+  {
+    "map": "Haven",
+    "styleTags": ["spread-default", "rotate-heavy", "information"],
+    "recommendedAgents": ["Sova", "Omen", "Jett", "Killjoy"],
+    "summary": "Haven's three-site layout rewards information gathering and fast rotation calls.",
+    "tips": [
+      "Use recon to confirm weak sites before committing because defenders are stretched thin.",
+      "Keep one anchor comfortable on the opposite side of the map to punish over-rotations.",
+      "Flexible duelists shine when they can pressure C long and pivot through garage."
+    ],
+    "sourceType": "map-guide"
+  },
+  {
+    "map": "Sunset",
+    "styleTags": ["contact-heavy", "mid-control", "utility-clear"],
+    "recommendedAgents": ["Cypher", "Omen", "Raze", "Gekko"],
+    "summary": "Sunset rewards teams that can clear angles methodically and convert mid control into split pressure.",
+    "tips": [
+      "Mid presence opens both sites, so use initiator utility before committing bodies.",
+      "Trap-heavy sentinel setups are powerful because lurk timings are common on rotations.",
+      "Post-plant success improves when utility is saved for alley and market re-clears."
+    ],
+    "sourceType": "map-guide"
+  }
+]

@@ -1,0 +1,23 @@
+
+> rag@0.1.0 dev
+> node scripts/dev.cjs
+
+Cleared .next cache
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 1004ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5s (1376 modules)
+ GET / 200 in 5244ms
+ ✓ Compiled /favicon.ico in 250ms (726 modules)
+ GET /favicon.ico 200 in 349ms
+ GET / 200 in 204ms
+ GET / 200 in 53ms
+ GET / 200 in 67ms
+ GET /favicon.ico 200 in 11ms
+ GET / 200 in 68ms
+ GET / 200 in 34ms
+ GET /favicon.ico 200 in 7ms

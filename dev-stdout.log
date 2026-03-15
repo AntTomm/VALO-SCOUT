@@ -1,0 +1,13 @@
+
+> rag@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1312ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.6s (1392 modules)
+ GET / 200 in 5882ms
+ GET / 200 in 95ms

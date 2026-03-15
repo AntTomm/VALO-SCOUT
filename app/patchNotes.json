@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Controller Utility Value",
+    "patch": "Patch Focus",
+    "summary": "Recent balance direction continues to reward coordinated smoke timing and post-plant denial utility.",
+    "impactTags": ["controller", "macro", "post-plant"],
+    "recommendation": "Players comfortable on Brimstone, Omen, and Viper gain value when the comp needs structure.",
+    "sourceType": "patch-note"
+  },
+  {
+    "title": "Initiator Info Economy",
+    "patch": "Patch Focus",
+    "summary": "Information-gathering utility remains central for teams that want safer map control before committing.",
+    "impactTags": ["initiator", "recon", "map-control"],
+    "recommendation": "Sova-style information play is especially useful on maps with contested mid space.",
+    "sourceType": "patch-note"
+  },
+  {
+    "title": "Entry Pressure Still Wins",
+    "patch": "Patch Focus",
+    "summary": "Aggressive duelists still convert high value when their utility is paired with disciplined follow-up.",
+    "impactTags": ["duelist", "entry", "tempo"],
+    "recommendation": "Jett and Raze specialists remain strong recommendations for fast-hit or space-taking plans.",
+    "sourceType": "patch-note"
+  }
+]

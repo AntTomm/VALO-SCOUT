@@ -266,14 +266,14 @@
         {
           "name": "Dark Cover",
           "type": "Smoke",
-      "description": "Casts a long-lasting smoke that can be steered while in the air."
-    },
-    {
-      "name": "From the Shadows",
-      "type": "Ultimate",
-      "description": "Allows Omen to teleport anywhere on the map. If he dies during the teleport, he will return to his original location."
+          "description": "Casts a long-lasting smoke that can be steered while in the air."
+        },
+        {
+          "name": "From the Shadows",
+          "type": "Ultimate",
+          "description": "Allows Omen to teleport anywhere on the map. If he dies during the teleport, he will return to his original location."
+        }
+      ]
     }
-  ]
-}
   ]
 }

@@ -1,8 +1,4 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react"; // vercel
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "VALO-Scout",
@@ -12,9 +8,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         {children}
-        <Analytics /> 
       </body>
     </html>
   );

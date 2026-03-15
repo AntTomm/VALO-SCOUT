@@ -1,0 +1,19 @@
+
+> rag@0.1.0 dev
+> next dev --hostname 0.0.0.0 --port 3000
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 1224ms
+ ○ Compiling / ...
+ ✓ Compiled / in 5.2s (1379 modules)
+ GET / 200 in 5473ms
+ ✓ Compiled /_not-found in 422ms (1368 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 581ms
+ ✓ Compiled /favicon.ico in 220ms (729 modules)
+ GET /favicon.ico 200 in 308ms
+ GET / 200 in 175ms
+ GET / 200 in 60ms
